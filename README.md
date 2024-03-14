@@ -22,3 +22,19 @@ In software development, design patterns serve a similar purpose—**they provid
 ## Give a Star! :star:
 
 If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+
+## Design Pattern Types
+
+Design patterns can be separated into three main categories:
+
+* **Creational Patterns** - Object creation
+
+    - **Singleton Pattern**: Ensures a class has only one instance and provides a global point of access to it. This is particularly useful for managing resources like database connections.
+
+    - **Factory Method Pattern**: Defines an interface for creating an object but lets subclasses alter the type of objects that will be created. It's ideal when you have a superclass with multiple subclasses, and must create an instance of one of these subclasses based on some initialization parameters.
+
+    - **Abstract Factory Pattern**: Offers an interface for creating families of related or dependent objects without specifying their concrete classes. This pattern shines when you must ensure that the created objects can work together without knowing their exact types.
+
+    - **Builder Pattern**: Separates the construction of a complex object from its representation, allowing the same construction process to create various representations. This pattern is excellent for when you need to create an object with many optional or required components.
+
+    - **Prototype Pattern**: Creates new objects by copying an existing object, known as the prototype. This is particularly useful in scenarios where the cost of creating an object is heavier than copying an existing one.
