@@ -3,10 +3,6 @@
 The most common Design Patterns you need to know with examples in C#.
 </p>
 
-<p align="center">
-    <img src="assets/Design-Patterns-in-Use.png">
-<p>
-
 ## What are Design Patterns?
 
 The concept of design patterns in software engineering was popularized in the early 1990s by the famous book **["Design Patterns: Elements of Reusable Object-Oriented Software"](https://amzn.to/3SKaa9x)** by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides, collectively known as the "Gang of Four" (GoF). However, the roots of design patterns go back further, drawing inspiration from the field of architecture.
@@ -79,3 +75,28 @@ Design patterns can be separated into three main categories:
 
     - **Template Method Pattern**: Defines the skeleton of an algorithm in the superclass but lets subclasses override specific algorithm steps without changing its structure. It's beneficial when a multi-step process requires flexibility while maintaining the overall structure.
 
+![Types of Design Patterns](assets/DesignPatterns.png)
+
+## Don’t fall into the Design Patterns trap
+
+You should be warned that you will probably fall into **the Design Patterns trap** when you first learn design patterns. This means you will try to squeeze a pattern in every solution, and your codebase will become over-engineering and unusable very soon.
+
+But we want to make our codebase as simple as possible, so Design patterns are not the silver bullet for all problems. We should not try to put them into every problem we have because they are solutions to problems, not tools that should be used everywhere. **If you can implement a simple solution without using a design pattern, do it!**
+
+![Design Patterns Trap](assets/DesignPatternsTrap.jpg)
+
+We find something even more problematic in the latest [O'Reilly Technology Trends for 2024](https://www.oreilly.com/radar/technology-trends-for-2024/). Managers are asking developers how many patterns they used. This is an open door to over-engineering.
+
+![Patterns Managers](assets/PatternsManagers.png)
+
+But that's not all, we also saw examples of codebases that [organize their code by folder names of design patterns](https://youtu.be/P7CfWtR-ECk?t=408). **It cannot be more wrong than this!**
+
+Yet, understanding design patterns keeps you from reinventing wheels.
+
+---
+
+In the rest of the article, we will go through all the important Design Patterns. During many years of using these patterns, I noticed that some are used often, some rarely, and some are not. Here, I will present only those patterns you need daily. 
+
+Every pattern has an **[implementation in C# language](src)**. The solution can be run using `.NET 8`.
+
+![Implementation in C#](assets/Solution.png)
