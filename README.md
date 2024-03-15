@@ -224,3 +224,19 @@ Other **exciting design patterns from this group** are:
 **[An implementation of the Facade pattern in C#.](Facade)**
 
 Another interesting design pattern from this group is the **Bridge pattern**. It is used to decouple abstraction from implementation. For example, I am separating platform-specific code from core logic. Check the [implementation in C#](Bridge).
+
+## Behavioral Design Patterns
+
+### Strategy pattern
+
+**Usage**: Define a family of algorithms. For example, they allow users to choose different sorting or compression algorithms.
+
+**Real-world example**: Let’s plan a travel from city A to city B. You can choose a "transportation strategy" based on your needs: take a fast train (speed focus), a comfortable bus (comfort focus), or a budget-friendly carpool (low-cost focus). 
+
+**The remark about usage**: This could lead to an increased number of classes and complexity when dealing with many strategies. There is no need to add new classes and interfaces if you have only a few algorithms that change rarely.
+
+**UML diagram of Strategy pattern:**
+
+![Strategy](assets/Strategy.png)
+
+**[An implementation of the Strategy pattern in C#.](Strategy)**
