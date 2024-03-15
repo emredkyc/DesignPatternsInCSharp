@@ -168,3 +168,17 @@ Other **exciting design patterns from this group** are:
 ![Adapter](assets/Adapter.png)
 
 **[An implementation of the Adapter pattern in C#.](Adapter)**
+
+### Composite pattern
+
+**Usage**: Represent part-whole hierarchies. For example, graphic objects in a drawing application can be grouped and treated uniformly.
+
+**Real-world example**: In the library, books are organized on shelves, but each shelf can further hold categories (fiction, history). These categories might even contain subcategories (romance, mystery). Each shelf acts as a composite, keeping both individual books (leaf nodes) and other categories (composite nodes).
+
+**The remark about usage**: Restricting operations for certain components or leaves in the hierarchy could be challenging.
+
+**UML diagram of Composite pattern:**
+
+![Composite](assets/Composite.png)
+
+**[An implementation of the Composite pattern in C#.](Composite)**
