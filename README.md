@@ -100,3 +100,21 @@ In the rest of the article, we will go through all the important Design Patterns
 Every pattern has an **[implementation in C# language](src)**. The solution can be run using `.NET 8`.
 
 ![Implementation in C#](assets/Solution.png)
+
+## Creational Design Patterns
+
+### Singleton pattern
+
+**Usage**: Use when a single instance of a class is needed. Some examples are logging and database connections. 
+
+**Real-world example**: Only one CEO leads the company, making decisions and representing the entire organization, like a singleton providing global access and control.
+
+**The remark about usage**: The Singleton pattern is regarded as **an anti-pattern**; hence, using them excessively is advised. Why? Using it, we tend to make procedural code with global variables.
+
+**UML diagram of Singleton pattern:**
+
+![Singleton](assets/Singleton.png)
+
+**[An implementation of the Singleton pattern in C#.](src/Singleton)**
+
+> An important note about the Singleton pattern is that it poses a **significant issue for multithreading**, especially in a scenario where multiple threads may simultaneously attempt to create an instance of the Singleton class. This can lead to multiple instances if proper synchronization is not enforced, thus violating the core principle of the Singleton pattern that only one instance of the class should ever exist. There are multiple solutions to this problem, such as eager initialization, double-checked locking, or lazy initialization.
