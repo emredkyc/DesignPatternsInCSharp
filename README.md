@@ -196,3 +196,17 @@ Other **exciting design patterns from this group** are:
 ![Proxy](assets/Proxy.png)
 
 **[An implementation of the Proxy pattern in C#.](Proxy)**
+
+### Decorator pattern
+
+**Usage**: Dynamically add/remove behavior. For example, we are implementing compression or encryption on top of file streams.
+
+**Real-world example**: If we want to make a coffee, we would start with plain coffee (the core object). Then, "decorate" it with cream (adds richness), sugar (sweetness), and cinnamon (extra flavor), each a "decorator" enhancing the base coffee without altering it. You can even combine them (multiple decorators) for unique creations like a creamy, sweet cinnamon latte!
+
+**The remark about usage**: Overuse of decorators can lead to a complex hierarchy of objects.
+
+**UML diagram of Decorator pattern:**
+
+![Decorator](assets/Decorator.png)
+
+**[An implementation of the Decorator pattern in C#.](Decprator)**
