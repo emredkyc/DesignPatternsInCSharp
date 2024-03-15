@@ -182,3 +182,17 @@ Other **exciting design patterns from this group** are:
 ![Composite](assets/Composite.png)
 
 **[An implementation of the Composite pattern in C#.](Composite)**
+
+### Proxy pattern
+
+**Usage**: Control access to objects. For example, lazy loading of a high-resolution image in a web application.
+
+**Real-world example**: Let’s assume you’re a CEO with a personal assistant who acts as a "proxy," handling requests and shielding you from unnecessary distractions. The assistant assesses each request, prioritizing the important ones, filtering out spam, and preparing relevant info. Only the filtered essentials reach the CEO, who focuses on big decisions, while the assistant handles the rest. 
+
+**The remark about usage**: Overusing proxies can add unnecessary complexity and impact performance.
+
+**UML diagram of Proxy pattern:**
+
+![Proxy](assets/Proxy.png)
+
+**[An implementation of the Proxy pattern in C#.](Proxy)**
