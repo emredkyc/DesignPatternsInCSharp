@@ -132,3 +132,23 @@ Every pattern has an **[implementation in C# language](src)**. The solution can 
 ![Factory Method](assets/FactoryMethod.png)
 
 **[An implementation of the Factory Method pattern in C#.](FactoryMethod)**
+
+### Builder pattern
+
+**Usage**: Constructing complex objects step by step. For example, if you need to create a complex domain object.
+
+**Real-world example**: If we hire an architect to design our dream home, we don't need to know every construction detail. We need to tell the architect our preferences (number of rooms, style, materials), and they create a blueprint with those specifications. The architect acts as the "builder pattern," guiding us through the creation process with clear steps (foundation, walls, roof), ensuring correct order, and handling complex details. You make choices (fireplace or no fireplace?), and the builder incorporates them, constructing the house piece by piece until it's complete. 
+
+**The remark about usage**: It could lead to increased complexity due to the introduction of multiple new classes.
+
+**UML diagram of Builder pattern:**
+
+![Builder](assets/Builder.png)
+
+**[An implementation of the Builder pattern in C#.](Builder)**
+
+Other **exciting design patterns from this group** are:
+
+* **Abstract Factory**: Create families of related objects. For example, I build parsers for different file formats (e.g., JSON, XML, CSV). Check the **[implementation in C#](AbstractFactory)**.
+
+* **Prototype**: Creating duplicate objects and reusing cached objects to reduce database calls. Check the **[implementation in C#](Prototype)**.
