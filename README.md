@@ -115,6 +115,20 @@ Every pattern has an **[implementation in C# language](src)**. The solution can 
 
 ![Singleton](assets/Singleton.png)
 
-**[An implementation of the Singleton pattern in C#.](src/Singleton)**
+**[An implementation of the Singleton pattern in C#.](Singleton)**
 
 > An important note about the Singleton pattern is that it poses a **significant issue for multithreading**, especially in a scenario where multiple threads may simultaneously attempt to create an instance of the Singleton class. This can lead to multiple instances if proper synchronization is not enforced, thus violating the core principle of the Singleton pattern that only one instance of the class should ever exist. There are multiple solutions to this problem, such as eager initialization, double-checked locking, or lazy initialization.
+
+### Factory method pattern
+
+**Usage**: Decouple object creation from usage. For example, you create different types of database connections based on configuration.
+
+**Real-world example**: Think of a pizza joint with a "Pizza Factory" instead of chefs. Customers order "cheese" or "pepperoni," not knowing how it's made. Based on the order, this factory tells specialized "CheesePizza" or "PepperoniPizza" builders to get cookin'. Each builder adds signature toppings, keeping the creation logic separate but the ordering process smooth.
+
+**The remark about usage**: It can lead to increased classes, potentially making the codebase more complex.
+
+**UML diagram of Factory method pattern:**
+
+![Factory Method](assets/FactoryMethod.png)
+
+**[An implementation of the Factory Method pattern in C#.](FactoryMethod)**
