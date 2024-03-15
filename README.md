@@ -152,3 +152,19 @@ Other **exciting design patterns from this group** are:
 * **Abstract Factory**: Create families of related objects. For example, I build parsers for different file formats (e.g., JSON, XML, CSV). Check the **[implementation in C#](AbstractFactory)**.
 
 * **Prototype**: Creating duplicate objects and reusing cached objects to reduce database calls. Check the **[implementation in C#](Prototype)**.
+
+## Structural Design Patterns
+
+### Adapter pattern
+
+**Usage**: Make incompatible interfaces compatible. For example, it integrates a new logging library into an existing system that expects a different interface.
+
+**Real-world example**: Allows you to use your devices in different countries by adapting to the local power outlet (adapter mediates communication between incompatible systems).
+
+**The remark about usage**: Can lead to an increase in the number of adapters, making the system more complicated. Modifying the service class to align with the rest of the codebase could be simpler sometimes.
+
+**UML diagram of Adapter pattern:**
+
+![Adapter](assets/Adapter.png)
+
+**[An implementation of the Adapter pattern in C#.](Adapter)**
