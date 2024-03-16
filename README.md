@@ -308,3 +308,8 @@ To select a pattern, we must first go through the problem identification, as sho
 Here is the summary of the pattern selection:
 
 ![Select Pattern Summary](assets/SelectPatternSummary.png)
+
+## BONUS: Design Patterns Cheat Sheet
+
+![Design Patterns Cheat Sheet](assets/DesignPatternsCheatSheet.png)
+
