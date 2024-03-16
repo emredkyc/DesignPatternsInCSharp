@@ -255,3 +255,17 @@ Another interesting design pattern from this group is the **Bridge pattern**. It
 
 **[An implementation of the Observer pattern in C#.](Observer)**
 
+### Command pattern
+
+**Usage**: Encapsulate a request as an object. For example, I implement undo/redo functionality in text or image editor.
+
+**Real-world example**: Picture ordering food at a restaurant. You tell the waiter your wishes (pizza, extra cheese), creating an "order command." The waiter then acts as a messenger, carrying your "command" to the Chef in the kitchen (receiver). The Chef, receiving the "command," makes your pizza precisely as specified. This separation of ordering (command) from making (execution) lets you change or cancel easily.
+
+**The remark about usage**: It has the potential to introduce complexity, as it requires creating additional classes for each action or request, complicating the architecture for simple operations.
+
+**UML diagram of Command pattern:**
+
+![Command](assets/Command.png)
+
+**[An implementation of the Command pattern in C#.](Command)**
+
