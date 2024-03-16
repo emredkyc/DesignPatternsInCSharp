@@ -269,3 +269,17 @@ Another interesting design pattern from this group is the **Bridge pattern**. It
 
 **[An implementation of the Command pattern in C#.](Command)**
 
+### State pattern
+
+**Usage**: Encapsulate state-specific behavior. For example, we are handling different states of a user interface element (e.g., enabled, disabled, selected).
+
+**Real-world example**: The smartphone effortlessly transitions between states (on, off, silent, airplane mode) based on your actions. Each state (the "concrete state") has unique behavior: on allows calls and notifications, silent mutes them, and airplane mode blocks signals. The phone (the "context") doesn't manage these behaviors directly; it delegates to the current state object. When you press a button or toggle a setting, the phone transitions to a new state, seamlessly changing its behavior without requiring intricate logic. 
+
+**The remark about usage**: It can lead to a proliferation of classes, as each state is typically represented by its class. This not only increases the complexity of the system but can also make it harder to manage and understand.
+
+**UML diagram of State pattern:**
+
+![State](assets/State.png)
+
+**[An implementation of the State pattern in C#.](State)**
+
