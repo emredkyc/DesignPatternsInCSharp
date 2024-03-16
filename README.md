@@ -283,3 +283,17 @@ Another interesting design pattern from this group is the **Bridge pattern**. It
 
 **[An implementation of the State pattern in C#.](State)**
 
+### Template method pattern
+
+**Usage**: Define the skeleton of an algorithm in operation, deferring some steps to subclasses and implementing a base class for unit testing with customizable setup and teardown steps.
+
+**Real-world example**: Let’s say we have a factory where every car (subclasses like Sedan, SUV, and Truck) follows the same basic steps: weld the frame, add the engine, install electrical components, and paint. This is the overall structure defined by the template method. However, each car type has specific variations: Sedans have smaller frames and engines, SUVs have higher clearance and different interiors, and trucks have reinforced frames and more significant engines. 
+
+**The remark about usage**: It can lead to overly complex hierarchies when multiple algorithm variations are required.
+
+**UML diagram of Template Method pattern:**
+
+![Template Method](assets/TemplateMethod.png)
+
+**[An implementation of the Template Method pattern in C#.](TemplateMethod)**
+
