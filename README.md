@@ -297,3 +297,14 @@ Another interesting design pattern from this group is the **Bridge pattern**. It
 
 **[An implementation of the Template Method pattern in C#.](TemplateMethod)**
 
+## How to select the right design pattern
+
+Choosing the correct design pattern in software engineering is critical to practical problem-solving. This guide simplifies the process, helping you decide between patterns based on specific needs. It offers concise descriptions and valuable use cases for each pattern, making understanding and applying them in real-world scenarios easier. 
+
+To select a pattern, we must first go through the problem identification, as shown in the image below.
+
+![Select Pattern](assets/SelectPattern.png)
+
+Here is the summary of the pattern selection:
+
+![Select Pattern Summary](assets/SelectPatternSummary.png)
