@@ -313,3 +313,25 @@ Here is the summary of the pattern selection:
 
 ![Design Patterns Cheat Sheet](assets/DesignPatternsCheatSheet.png)
 
+## Resources to learn more
+
+Here are some more resources if you want to dig deeper into the world of design patterns, you can check the following resources:
+
+- **[Head First Design Patterns: A Brain-friendly Guide](https://amzn.to/3OxkE9P)** book.
+
+- **[Design Patterns: Elements of Reusable Object-Oriented Software](https://amzn.to/3SKaa9x)** book by GoF.
+
+- **[Awesome Software and Architectural Design Patterns](https://github.com/DovAmir/awesome-design-patterns)**, A curated list of software and architecture related design patterns.
+
+- **[Design Patterns Library](https://www.pluralsight.com/courses/patterns-library)** Pluralsight course.
+
+- **[Refactoring.Guru](https://refactoring.guru/)** website.
+
+- **[Source Making](https://sourcemaking.com/design-patterns-and-tips)** website.
+
+- **[Design Patterns Quick Reference](http://www.mcdonaldland.info/2007/11/28/40/)**.
+
+## Wrap Up
+
+If you think the repository can be improved, please open a PR with any updates and submit any issues. Also, I will continue to improve this, so you should star this repository, too.
+
