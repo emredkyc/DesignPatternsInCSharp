@@ -240,3 +240,18 @@ Another interesting design pattern from this group is the **Bridge pattern**. It
 ![Strategy](assets/Strategy.png)
 
 **[An implementation of the Strategy pattern in C#.](Strategy)**
+
+### Observer pattern
+
+**Usage**: Maintain a consistent state by being notified of changes and, for example, notifying subscribers of events in a messaging system.
+
+**Real-world example**: We can think of a breaking news app. Users subscribe to specific topics (sports, politics, etc.), acting as "observers." When news breaks in a subscribed topic, the "observer pattern" notifies all relevant users with personalized alerts. Sports fans get their scores, and political enthusiasts receive election updates without them needing to check actively. 
+
+**The remark about usage**: This can result in performance issues when there are numerous observers or the update logic is complex. Subscribers are notified in an unpredictable sequence.
+
+**UML diagram of Observer pattern:**
+
+![Observer](assets/Observer.png)
+
+**[An implementation of the Observer pattern in C#.](Observer)**
+
